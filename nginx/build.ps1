@@ -9,10 +9,10 @@ param
 )
 	$latest = "latest${suffix}"
 	$v = "${version}${suffix}"
-	Write-Host "Building spring2/${image}:${v}"
+	Write-Host "Building cortside/${image}:${v}"
 
-	docker build --build-arg VERSION=${version} -t spring2/${image}:$latest -f $dockerfile .
-	docker tag spring2/${image}:$latest spring2/${image}:${v}
+	docker build --build-arg VERSION=${version} -t cortside/${image}:$latest -f $dockerfile .
+	docker tag cortside/${image}:$latest cortside/${image}:${v}
 }
 
 Build -version $stable_version

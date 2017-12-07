@@ -1,6 +1,6 @@
 . .\version.ps1
 
-Write-Host "Building spring2/${image}:${version}"
+Write-Host "Building cortside/${image}:${version}"
 
-docker build --build-arg VERSION=${version} -t spring2/${image}:latest -f Dockerfile .
-docker tag spring2/${image}:latest spring2/${image}:${version}
+docker build --build-arg VERSION=${version} -t cortside/${image}:latest -f Dockerfile .
+docker tag cortside/${image}:latest cortside/${image}:${version}

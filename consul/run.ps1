@@ -1,5 +1,3 @@
-$env:DOCKER_HOST="vdc-qasapptst01"
-
 docker stop consul-agent
 docker rm consul-agent
 
@@ -26,7 +24,7 @@ docker run -d --restart=always `
 	-e IP=$ip `
 	-e DATACENTER=$domain `
 	-v c:/consul:c:/consul `
-	spring2/consul `
+	cortside/consul `
 	agent -join $consul `
 	-advertise $ip `
 	-datacenter $domain `

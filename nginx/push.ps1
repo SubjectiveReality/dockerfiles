@@ -9,10 +9,10 @@ param
 
 	$latest = "latest${suffix}"
 	$v = "${version}${suffix}"
-	Write-Host "Pushing spring2/${image}:${v}"
+	Write-Host "Pushing cortside/${image}:${v}"
 
-	docker push spring2/${image}:${v}
-	docker push spring2/${image}:${latest}
+	docker push cortside/${image}:${v}
+	docker push cortside/${image}:${latest}
 }
 
 Push -version $stable_version

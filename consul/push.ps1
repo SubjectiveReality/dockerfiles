@@ -1,6 +1,6 @@
 . .\version.ps1
 
-Write-Host "Pushing spring2/${image}:${version}"
+Write-Host "Pushing cortside/${image}:${version}"
 
-docker push spring2/${image}:${version}
-docker push spring2/${image}:latest
+docker push cortside/${image}:${version}
+docker push cortside/${image}:latest

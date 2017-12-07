@@ -4,7 +4,7 @@ image: Visual Studio 2017
 environment:
   DOCKER_USER: corts    
   DOCKER_PASS:
-    secure: aJxs6RpEgV8wpv8oseMsQA==
+    secure: ATrglohIlg/NHRCeHMytmg==
     
 install:
   - ps: .\update-docker-ce.ps1

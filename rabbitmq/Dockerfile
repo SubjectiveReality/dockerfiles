@@ -19,7 +19,7 @@ ENV RABBITMQ_CONFIG_FILE="c:\rabbitmq"
 COPY rabbitmq.config C:/
 COPY rabbitmq.config C:/Users/ContainerAdministrator/AppData/Roaming/RabbitMQ/
 COPY enabled_plugins C:/Users/ContainerAdministrator/AppData/Roaming/RabbitMQ/
-COPY enabled_plugins C:/Users/
+COPY enabled_plugins C:/
 
 EXPOSE 4369
 EXPOSE 5672

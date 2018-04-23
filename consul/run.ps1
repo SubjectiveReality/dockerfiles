@@ -10,7 +10,6 @@ write-host $consul
 $ip='10.100.63.83'
 $ip
 
-
 $consul = "10.100.63.177"
 $consul
 
